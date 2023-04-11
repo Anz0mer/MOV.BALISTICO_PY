@@ -2,11 +2,8 @@ from math import *
 
 altura_da_bola = float(input("Digite a altura da bola:" ))
 velocidade_0_bola = float(input("Digite a velocidade 0 da bola: ")
-                               
+angulo_bola = radians(input('Digite o angulo da bola: '))                               
 
-altura_da_bola = 71.00
-velocidade_0_bola = 20.50
-angulo_bola = radians(35)
 gravidade = 10
 
 cosseno = cos(angulo_bola)
