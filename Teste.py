@@ -1,7 +1,7 @@
 from math import *
 
 altura_da_bola = float(input("Digite a altura da bola:" ))
-velocidade_0_bola = float(input("Digite a velocidade 0 da bola: ")
+velocidade_0_bola = float(input("Digite a velocidade 0 da bola: "))
 angulo_bola = radians(input('Digite o angulo da bola: '))                               
 
 gravidade = 10
