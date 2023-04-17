@@ -2,13 +2,15 @@
 from math import *
 
 # Dados que o exercício oferece
-altura_da_bola = float(input("Digite a altura da bola em m: "))
+altura_da_bola = float(input("Digite a altura da bola: "))
 velocidade_0_bola = float(input("Digite a velocidade 0 da bola em m/s: "))
 angulo_bola = float(input('Digite o angulo da bola: '))                             
 
 # Conversões que precisamos fazer para rodar o programa
 angulo_bola = radians(angulo_bola)
 gravidade = 10.00
+#altura_da_bola = altura_da_bola / 100
+#velocidade_0_bola = velocidade_0_bola / 3.6
 
 # Relações trigonométricas que os exercícios pedem
 cosseno = cos(angulo_bola)
