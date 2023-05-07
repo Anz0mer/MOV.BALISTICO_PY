@@ -30,8 +30,9 @@ v0x = round(v0x, 3)
 v0y = round(v0y, 3)
 
 # Resultados para a primeira questão que seria descobrir a velocidade inicial de x e a velocidade inicial de y
-print("(Q1) Velocidade de v0x: %.3f\n" % v0x)
-print("(Q1) Velocidade de v0y: %.3f\n" % v0y)
+print(" ")
+print("(A) Velocidade de v0x: %.3f\n" % v0x)
+print("(A) Velocidade de v0y: %.3f\n" % v0y)
 
 # Q2 Cálculos para a segunda questão que seria descobrir o tempo de alcance da bola
 #posicao_final = altura_da_bola + (v0y * tempo_alcance_bola_final) - (5 * (tempo_alcance_bola_final ** 2))
@@ -43,8 +44,8 @@ tempo_alcance_bola1 = round(tempo_alcance_bola1, 2)
 tempo_alcance_bola2 = round(tempo_alcance_bola2, 2)
 
 # Resultados para a segunda questão que seria descobrir o tempo de alcance da bola
-print("(Q2) Tempo de alcance da bola 1: %.3f\n" % tempo_alcance_bola1)
-print("(Q2) Tempo de alcance da bola 2: %.3f\n" % tempo_alcance_bola2)
+print("(B) Tempo de alcance da bola 1: %.3f\n" % tempo_alcance_bola1)
+print("(B) Tempo de alcance da bola 2: %.3f\n" % tempo_alcance_bola2)
 
 # Q3 Cálculos para a terceira questão que seria descobrir as posições de x e y em um determinado tempo
 tempo_c = float(input("Digite o tempo da questão c: "))
@@ -56,8 +57,9 @@ x = round(x, 3)
 y = round(y, 3)
 
 # Resultados para a terceira questão que seria descobrir as posições de x e y em um determinado tempo
-print ("(Q3) Posição de X: %.3f\n" % x)
-print ("(Q3) Posição de Y: %.3f\n" % y)
+print (" ")
+print ("(C) Posição de X: %.3f\n" % x)
+print ("(C) Posição de Y: %.3f\n" % y)
 
 # Q4 Cálculos para a quarta questão que seria descobrir as velocidades de x e y em um determinado tempo
 vx_d = (velocidade_0_bola * cosseno)
@@ -70,9 +72,9 @@ vy_d = round(vy_d, 3)
 modulo_v_d = round(modulo_v_d, 3)
 
 # Resultados para a quarta questão que seria descobrir as velocidades de x e y em um determinado tempo
-print ("(Q4) Velocidade de X: %.3f\n" % vx_d)
-print ("(Q4) Velocidade de Y: %.3f\n" % vy_d)
-print ("(Q4) Módulo da velocidade: %.3f\n" % modulo_v_d)
+print ("(D) Velocidade de X: %.3f\n" % vx_d)
+print ("(D) Velocidade de Y: %.3f\n" % vy_d)
+print ("(D) Módulo da velocidade: %.3f\n" % modulo_v_d)
 
 # Q5 Cálculos para a quinta questão que seria descobrir a altura máxima que a bola alcança
 h = ((velocidade_0_bola ** 2) * (seno ** 2))/ (2 * gravidade)
@@ -82,7 +84,7 @@ h = round(h, 3)
 altura_maxima = round(altura_maxima, 3)
 
 # Resultados para a quinta questão que seria descobrir a altura máxima que a bola alcança
-print('(Q5) O ponto mais alto da trajetória (H): %.3f\n' % altura_maxima)
+print('(E) O ponto mais alto da trajetória (H): %.3f\n' % altura_maxima)
 
 # Q6 Cálculos para a sexta questão que seria descobrir o alcance horizontal máximo que a bola alcança
 a1 = v0x * tempo_alcance_bola1
@@ -92,8 +94,8 @@ a1 = round(a1, 3)
 a2 = round(a2, 3)
 
 # Resultados para a sexta questão que seria descobrir o alcance horizontal máximo que a bola alcança
-print('(Q6) Alcance horizontal da bola de tempo 1 (A): %.3f\n' % a1)
-print('(Q6) Alcance horizontal da bola de tempo 2 (A): %.3f\n' % a2)
+print('(F) Alcance horizontal da bola de tempo 1 (A): %.3f\n' % a1)
+print('(F) Alcance horizontal da bola de tempo 2 (A): %.3f\n' % a2)
 
 
 # Q7 Cálculos para a sétima questão que seria descobrir a velocidade de x e a velocidade de y antes de chegar no solo
@@ -106,9 +108,9 @@ vx_g = round(vx_g, 3)
 vy_g = round(vy_g, 3)
 modulo_v_g = round(modulo_v_g, 3)
 # Resultados para a sétima questão que seria descobrir a velocidade de x e a velocidade de y antes de chegar no solo
-print ("(Q7) Velocidade de X: %.3f\n" % vx_g)
-print ("(Q7) Velocidade de Y: %.3f\n" % vy_g)
-print ("(Q7) Módulo da velocidade: %.3f\n" % modulo_v_g)
+print ("(G) Velocidade de X: %.3f\n" % vx_g)
+print ("(G) Velocidade de Y: %.3f\n" % vy_g)
+print ("(G) Módulo da velocidade: %.3f\n" % modulo_v_g)
 
 # Q8 Cálculos para a oitava questão que seria descobrir a velocidade de x e a velocidade de y no seu tempo de subida
 tempo_subida = (v0y / gravidade)
@@ -125,6 +127,6 @@ vy_h = round(vy_h, 3)
 modulo_v_h = round(modulo_v_h, 3)
 
 # Resultados para a oitava questão que seria descobrir a velocidade de x e a velocidade de y no seu tempo de subida
-print ("(Q8) Velocidade de X: %.3f\n" % vx_h)
-print ("(Q8) Velocidade de Y: %.3f\n" % vy_h)
-print ("(Q8) Módulo da velocidade: %.3f\n" % modulo_v_h)
+print ("(H) Velocidade de X: %.3f\n" % vx_h)
+print ("(H) Velocidade de Y: %.3f\n" % vy_h)
+print ("(H) Módulo da velocidade: %.3f\n" % modulo_v_h)
