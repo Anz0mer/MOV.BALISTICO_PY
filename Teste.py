@@ -8,8 +8,8 @@ angulo_bola = float(input('Digite o angulo da bola: '))
 
 # Conversões que precisamos fazer para rodar o programa
 angulo_bola = radians(angulo_bola)
-gravidade = 10.00
-altura_da_bola = altura_da_bola / 100
+gravidade = 9.80
+#altura_da_bola = altura_da_bola / 100
 #velocidade_0_bola = velocidade_0_bola / 3.6
 
 altura_da_bola = round(altura_da_bola, 3)
@@ -36,9 +36,9 @@ print("(A) Velocidade de v0y: %.3f\n" % v0y)
 
 # Q2 Cálculos para a segunda questão que seria descobrir o tempo de alcance da bola
 #posicao_final = altura_da_bola + (v0y * tempo_alcance_bola_final) - (5 * (tempo_alcance_bola_final ** 2))
-delta = (v0y ** 2) - (4 * -5 * altura_da_bola)
-tempo_alcance_bola1 = - (v0y + (sqrt(delta)))/-10
-tempo_alcance_bola2 = - (v0y - (sqrt(delta)))/-10
+delta = (v0y ** 2) - (4 * - 4.9 * altura_da_bola)
+tempo_alcance_bola1 = - (v0y + (sqrt(delta)))/-9.8
+tempo_alcance_bola2 = - (v0y - (sqrt(delta)))/-9.8
 
 tempo_alcance_bola1 = round(tempo_alcance_bola1, 2)
 tempo_alcance_bola2 = round(tempo_alcance_bola2, 2)
@@ -51,7 +51,7 @@ print("(B) Tempo de alcance da bola 2: %.3f\n" % tempo_alcance_bola2)
 tempo_c = float(input("Digite o tempo da questão c: "))
 
 x = (velocidade_0_bola * cosseno) * tempo_c
-y = ((altura_da_bola + (v0y * tempo_c)) - (5 * (tempo_c**2)))
+y = ((altura_da_bola + (v0y * tempo_c)) - (4.9 * (tempo_c**2)))
 
 x = round(x, 3)
 y = round(y, 3)
